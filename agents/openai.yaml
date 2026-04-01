@@ -1,4 +1,4 @@
 version: 1
-display_name: Dating Skill
+display_name: HeartFlow
 short_description: Create and evolve dating personas for immersive interaction and stage-aware strategy analysis.
 default_prompt: Create a dating persona or update an existing one using materials, stage info, scenes, and corrections.
