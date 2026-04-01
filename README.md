@@ -41,13 +41,13 @@ Claude Code:
 
 ```bash
 mkdir -p .claude/skills
-cp -R /path/to/dating-skill .claude/skills/create-dating
+cp -R /path/to/heartflow .claude/skills/create-heartflow
 ```
 
 或全局安装：
 
 ```bash
-cp -R /path/to/dating-skill ~/.claude/skills/create-dating
+cp -R /path/to/heartflow ~/.claude/skills/create-heartflow
 ```
 
 可选依赖：
@@ -61,7 +61,7 @@ pip3 install -r requirements.txt
 ### 1. 创建关系对象
 
 ```text
-/create-dating
+/create-heartflow
 ```
 
 创建时支持两条路径：
@@ -84,7 +84,7 @@ pip3 install -r requirements.txt
 ### 2. 继续养成和纠正
 
 ```text
-/update-dating lin
+/update-heartflow lin
 ```
 
 可以做两类更新：
@@ -125,7 +125,7 @@ relationships/{slug}/corrections.jsonl
 ### 4. 回滚对象
 
 ```text
-/dating-rollback lin v2
+/heartflow-rollback lin v2
 ```
 
 ## 阶段模型

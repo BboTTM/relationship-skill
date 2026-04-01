@@ -6,14 +6,14 @@
 
 ```bash
 mkdir -p .claude/skills
-cp -R /path/to/dating-skill .claude/skills/create-dating
+cp -R /path/to/heartflow .claude/skills/create-heartflow
 ```
 
 全局安装：
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R /path/to/dating-skill ~/.claude/skills/create-dating
+cp -R /path/to/heartflow ~/.claude/skills/create-heartflow
 ```
 
 ## 依赖

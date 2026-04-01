@@ -1,6 +1,12 @@
 # HeartFlow
 
-Create a dating persona and simulate the progression from meeting to being in a relationship.
+Create a HeartFlow persona and simulate the progression from meeting to being in a relationship.
+
+Recommended command path:
+
+- `/create-heartflow`
+- `/update-heartflow {slug}`
+- `/heartflow-rollback {slug} {version}`
 
 This skill supports:
 
