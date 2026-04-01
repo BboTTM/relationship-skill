@@ -203,7 +203,7 @@ def analyze(text: str, display_name: str, source_type: str, stage: str, user_not
             "zodiac": zodiac or "",
             "mbti": mbti or "",
         },
-        "debrief_rules": "只有在用户主动触发 `/debrief`、`/strategy`、`/analyze`，或明确用自然语言要求分析/复盘/建议时，才分析当前阶段、场景、信号、风险和下一步建议。",
+        "debrief_rules": "只有在用户主动触发 `/debrief`、`/strategy`、`/analyze`，或明确输入“别演了直接教我拿下”时，才分析当前阶段、场景、信号、风险和下一步建议。",
         "analysis": {
             "archetype_guess": archetype,
             "archetype_scores": scores,
